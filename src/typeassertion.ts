@@ -34,7 +34,6 @@ const getEmail = () : string => {
     return myObj['email']
 }
 
-const getPersonData = (key:string) : string => {
-    
+const getPersonData = (key:keyof Person) : string => {
     return myObj[key];
 }
